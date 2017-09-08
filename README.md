@@ -16,7 +16,7 @@ The data expected and transformation that will occur is outlined below in the Tr
 
 2. Install the dependencies found in requirements.txt 
 
-   ``` pip install requirements.txt```
+   ``` pip install -r requirements.txt```
 
 ---
 ### Running the script
