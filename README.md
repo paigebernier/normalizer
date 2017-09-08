@@ -10,13 +10,13 @@ The data expected and transformation that will occur is outlined below in the Tr
 
 1. Create a virtual environment by opening Terminal and running (this will help isolate the libraries we install) 
 
-``` virtualenv env``` and enter it via ``` source env/bin/activate```
+   ``` virtualenv env``` and enter it via ``` source env/bin/activate```
 
-* If virtualenv is not installed run ``` pip install virtualenv```
+   * If virtualenv is not installed run ``` pip install virtualenv```
 
 2. Install the dependencies found in requirements.txt 
 
-``` pip install requirements.txt```
+   ``` pip install requirements.txt```
 
 ---
 ### Running the script
