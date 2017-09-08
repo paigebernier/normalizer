@@ -10,11 +10,7 @@ The data expected and transformation that will occur is outlined below in the Tr
 
 First create a virtual environment by opening Terminal and running (this will help isolate the libraries we install) 
 
-``` virtualenv env```
-
-Then enter it via
-
-``` source env/bin/activate```
+``` virtualenv env``` and enter it via ``` source env/bin/activate```
 
 All the libraries are found in requirements.txt so let's install them next
 
