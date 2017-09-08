@@ -8,15 +8,20 @@ The data expected and transformation that will occur is outlined below in the Tr
 * Python 2.7
 * Mac OS 10.12
 
-First create a virtual environment by opening Terminal and running (this will help isolate the libraries we install) 
+1. Create a virtual environment by opening Terminal and running (this will help isolate the libraries we install) 
 
 ``` virtualenv env``` and enter it via ``` source env/bin/activate```
 
-All the libraries are found in requirements.txt so let's install them next
+* If virtualenv is not installed run ``` pip install virtualenv```
+
+2. Install the dependencies found in requirements.txt 
 
 ``` pip install requirements.txt```
 
-To run the script run the following command substituting your csv in for _<csv.csv>_
+---
+### Running the script
+
+Open Terminal and run the following command substituting your csv in for _<csv.csv>_
 
 ``` cat <csv.csv> | python normalizer.py```
 
